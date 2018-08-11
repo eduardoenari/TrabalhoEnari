@@ -1,0 +1,21 @@
+****  Separar links por tópico ****
+
+
+
+### Python ###
+https://docs.python.org/3/
+
+
+### NoSQL ###
+https://docs.mongodb.com/manual/
+
+
+### Big Data ###
+
+
+
+### UX ###
+
+
+
+### ? ###
