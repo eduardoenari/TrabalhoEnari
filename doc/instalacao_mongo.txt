@@ -1,0 +1,20 @@
+Após fazer o download do instalador do mongodb para o windows, segui os passos padrão, sempre clicando em next e escolhendo a instalação completa.
+
+Agora precisei colocar o diretório onde estão os binários do mongo na variável de ambiente PATH. 
+No meu caso o diretório foi: C:\Program Files\MongoDB\Server\4.0\bin.
+
+Agora abri o cmd.exe como administrador para fazer algumas configurações:
+
+Primeiro precisei configurar o caminho de onde ficará salvo os databases e os arquivos de log:
+	- Colocando o cmd no diretório de instalação do mongo, no meu caso era C:\Program Files\MongoDB\. 
+	  O comando é: "cd C:\Program Files\MongoDB".
+	- Agora criando os diretórios dos dois. O comando é "md \data\db \data\log".
+
+Depois de criar os diretórios acima é necessário iniciar o serviço do mongo no windows:
+	- No cmd (como administrador), chamar o executável do mongo com o comando:
+	  "C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="C:\Program Files\MongoDB\data\db"
+	  ** A opção --dbpath aponta para onde ficará guardado o banco.
+	- Se tudo der certo, o mongo irá printar no console a seguinte mensagem: "[initandlisten] waiting for connections".
+	- Pode acontecer de o firewall do windows bloquear o serviço, para resolver isso é só colocar o executável mongod.exe nas exceções.
+
+O instalador já faz com que o serviço do mongo inicia na inicialização do windows.
