@@ -8,6 +8,11 @@ https://docs.python.org/3/
 
 ### NoSQL ###
 https://docs.mongodb.com/manual/
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+https://docs.mongodb.com/manual/core/document/
+https://docs.mongodb.com/manual/tutorial/query-arrays/
+https://docs.mongodb.com/manual/reference/bson-types/
+https://docs.mongodb.com/manual/mongo/
 
 
 ### Big Data ###
