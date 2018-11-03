@@ -8,6 +8,8 @@ Para windows: https://git-scm.com/download/win
 
 - Agora clonar o repositório ``git clone https://github.com/daillen/TrabalhoEnari.git``
 
+- Dêem cd no diretório do clone ``cd TrabalhoEnari``
+
 - Criem uma nova branch com o nome de vocês ``git checkout -b seu_nome``, **não usem espaço**
 
 - Coloque o seu nome no arquivo **Modificacoes 06.11.txt**
